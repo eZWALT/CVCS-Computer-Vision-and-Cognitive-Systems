@@ -1,0 +1,22 @@
+1. This is an image retrieval problem basically (Get the most similar images given I)
+The metrics used are precision/recall or ROC / Average Precision (Ranked lists)
+
+2. The evaluation here is
+
+3. The baseline pipeline for instance-level object recognition consists of:
+
+4. The search space is more or less the following:
+    - Do we use SIFT or a variant?
+    - SIFT has 6 hyperparameters 
+    - Processing: Lowe Ratio Test (0.6 - 0.8 typically)
+    - Matcher type: KNN, BF, FLANN     
+    - Geometrical?
+    - Preprocessing measures: 
+
+
+On the sift or not, there are different algorithms that could be handy (ORB, AKAZE, SURF) but sift is the best one actually
+
+
+TODO:
+- modularize the notebooks to make it easier to try new things
+- 
