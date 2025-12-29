@@ -9,3 +9,6 @@ datasets
 pillow
 opencv-python 
 tqdm
+
+protobuf
+sentencepiece
