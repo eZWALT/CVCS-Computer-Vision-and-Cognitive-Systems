@@ -9,6 +9,6 @@ datasets
 pillow
 opencv-python 
 tqdm
-
+loguru
 protobuf
 sentencepiece
